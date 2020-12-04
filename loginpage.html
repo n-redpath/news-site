@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="noozStyle.css"> 
+
+<title> Login Page   </title>
+
+</head>
+
+<body class="vibe">
+<h2>Log in to your account: </h2>
+<div class= "center">
+<form class = "center" action="login.php" method="POST">
+<!-- text box for username -->
+    <label for="usernameInput">Username </label>
+<input type="text" name="usernameInput" id="usernameInput"> 
+<br>
+<!-- text box for password -->
+    <label for="newuser">  password </label>
+<input type="password" name="passwordInput" id="newuser"> 
+ <input type="submit" name="Login" value="Login"> 
+ </form>
+</div>
+
+
+<div class="center">
+
+<br><br>
+<h2>Or, Create New User</h2>
+ <form class = "center" action="newUser.php" method="POST">
+
+    <!-- text box for first name -->
+<label for="firstnameInput">First Name</label>
+<input type="text" name="firstNameInput" id="firstnameInput"> 
+<br>
+<!-- text box for last name -->
+<label for="lastnameInput">Last Name </label>
+<input type="text" name="lastNameInput" id="lastnameInput"> 
+<br>
+
+    <!-- text box for new user -->
+        <label for="newuser">  New Username </label>
+    <input type="text" name="newuser" id="newuser"> 
+    <br>
+
+        <!-- text box for new password -->
+            <label for="newPassword">  New Password </label>
+        <input type="password" name="newPassword" id="newPassword"> 
+         <input type="submit" name="Create" value="Create"> 
+         </form>
+        </div>
+</body>
+</html> 

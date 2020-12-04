@@ -1,0 +1,54 @@
+h1{text-align: center; color:rgba(17, 15, 112, 0.61); font-size: 90px; font-weight: bolder;} 
+
+h2{text-align: center; color: rgba(17, 15, 112, 0.61);font-size: 40px;}
+
+a{color: lightyellow; font-weight: lighter;}
+
+body.vibe{background-color: rgb(167, 216, 247); text-align: right; border-color: lightyellow; border-width: 5px;}
+
+
+/* .navbar {
+    overflow: hidden;
+    background-color: rgb(155, 195, 207);
+    position: fixed; /* Set the navbar to fixed position */
+    /* top: 0; /* Position the navbar at the top of the page */
+    /* width: 100%; /* Full width */
+/* } */
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer; 
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
